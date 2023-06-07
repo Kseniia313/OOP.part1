@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         Griffindorf studentHarryPotter = new Griffindorf("Гарри Потер ", 10, 20, 25, 30, 35);
-        Griffindorf studentGermionaGreindger  = new Griffindorf("Гермиона Грейнджер ", 5, 20, 20, 33, 39);
+        Griffindorf studentGermionaGreindger = new Griffindorf("Гермиона Грейнджер ", 5, 20, 20, 33, 39);
         Griffindorf studentRonUizly = new Griffindorf("Рон Уизли ", 7, 18, 23, 17, 29);
 
 
@@ -19,14 +19,14 @@ public class Main {
         Slizerin studentsGrahamMontego = new Slizerin("Грэхэм Монтегю ", 43, 12, 65, 8, 14, 3, 5);
         Slizerin studentsGregoriKoil = new Slizerin(" Грегори Гойл ", 33, 21, 56, 38, 64, 4, 57);
 
-PrintStudents printStudents = new PrintStudents();
-printStudents.printStudents(studentsGregoriKoil);
+        PrintStudents printStudents = new PrintStudents();
+        printStudents.printStudents(studentsGregoriKoil);
 
-CompareStudents compareStudentsGriffindorf = new CompareStudents();
-compareStudentsGriffindorf.compareStudentsGriffindorf(studentGermionaGreindger, studentHarryPotter);
+        CompareStudents compareStudentsGriffindorf = new CompareStudents();
+        compareStudentsGriffindorf.compareStudentsGriffindorf(studentGermionaGreindger, studentHarryPotter);
 
-CompareStudents compareStudentsSlizerin  = new CompareStudents();
-compareStudentsSlizerin.compareStudentsSlizerin(studentsDrakoMalfoi, studentsGrahamMontego);
+        CompareStudents compareStudentsSlizerin = new CompareStudents();
+        compareStudentsSlizerin.compareStudentsSlizerin(studentsDrakoMalfoi, studentsGrahamMontego);
 
         CompareStudents compareStudentsKogtevran = new CompareStudents();
         compareStudentsKogtevran.compareStudentsKogtevran(studentsKChgouChang, studentsMarkusBelbi);
@@ -38,14 +38,7 @@ compareStudentsSlizerin.compareStudentsSlizerin(studentsDrakoMalfoi, studentsGra
         compareStudentsHogwartsPoMagii.compareStudentsHogwartsPoMagii(studentDgastinFinchFletchli, studentZahariyaSmitt);
 
         CompareStudents compareStudentsHogwartsPoTransgressii = new CompareStudents();
-        compareStudentsHogwartsPoTransgressii.compareStudentsHogwartsPoTransgressii (studentDgastinFinchFletchli, studentZahariyaSmitt);
-
-
-
-
-
-
-
+        compareStudentsHogwartsPoTransgressii.compareStudentsHogwartsPoTransgressii(studentDgastinFinchFletchli, studentZahariyaSmitt);
 
 
     }

@@ -1,4 +1,4 @@
-public class Puffendui extends Hogwarts{
+public class Puffendui extends Hogwarts {
     private int qualityTrudolybie;
     private int qualityLoyalty;
     private int qualityHonest;
