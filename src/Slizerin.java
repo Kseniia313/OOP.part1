@@ -1,5 +1,5 @@
 
-public class Slizerin extends Hogwarts{
+public class Slizerin extends Hogwarts {
     private int qualityTrick;
     private int qualityResoluteness;
     private int qualityAmbition;
@@ -56,5 +56,5 @@ public class Slizerin extends Hogwarts{
     }
 
 
-    }
+}
 

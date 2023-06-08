@@ -5,7 +5,6 @@ public class Griffindorf extends Hogwarts {
     private int qualityBravery;
 
 
-
     public Griffindorf(String name, int qualityColdovat, int qualityTransgressirovat, int qualityNobility, int qualityHonor, int qualityBravery) {
         super(name, qualityColdovat, qualityTransgressirovat);
         this.qualityNobility = qualityNobility;
@@ -39,7 +38,7 @@ public class Griffindorf extends Hogwarts {
     }
 
 
-    }
+}
 
 
 

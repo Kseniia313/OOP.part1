@@ -1,4 +1,4 @@
-public class Kogtevran extends Hogwarts{
+public class Kogtevran extends Hogwarts {
     private int qualityMind;
     private int qualityWisdom;
     private int qualityWit;
